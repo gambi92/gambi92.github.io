@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>Gambino Daniel</title>
+</head>
+
+<body>
+
+
+<h1 id="myname">Gambino Daniel</h1>
+<ul id="menu">
+  <li onclick="loadPage(this, 0)" class="pageMenuItem"><a href="#">My CV</a></li>
+
+  <li id="6" onclick="loadPage(this)" class="active"><a href="#">OITM 2022</a></li>
+  <li id="5" onclick="loadPage(this)"><a href="#">Lottery number guesser AI (Python, Tensorflow) - 2022</a></li>
+  <li id="4" onclick="loadPage(this)"><a href="#">Phonebook (ASP.NET Core with Angular) - 2022</a></li>
+  <li id="3" onclick="loadPage(this)"><a href="#">Basic API for air measuring hardware - 2019</a></li>
+  <li><a href="https://pecsifogaszatikorzetek.hu/" target="_blank">Dentist districts in Pécs (PHP) - 2017</a></li>
+  <li id="2" onclick="loadPage(this)"><a href="#">Picture viewer (C#, Winforms) - 2016</a></li>
+  <li id="1" onclick="loadPage(this)"><a href="#">Youtube Player (C#, Winforms) - 2016</a></li>
+</ul>
+<div id="content"></div>
+
+<script>
+window.onload = downScripts;
+
+function downScripts() {
+    var element = document.createElement("script");
+    element.src = "pageLoader.js";
+    document.body.appendChild(element);
+}
+</script>
+
+
+</body>
+
+</html>

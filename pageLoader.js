@@ -124,8 +124,9 @@ var page = [
 
 	"<h1>OITM (Országos IT Megmérettetés) 2022</h1>"+
 	"<h3>This is a National competition in Hungary. I participated in 11 category, here are my certificates (english and hungarian).</h3>"+
-	"<h3>In the category: \".NET development with C#\" I got in the TOP 25, so I will get my exact placement and my certificate in-person at 2023 february!</h3>"+
 	"<div class='multiLanguageCertificates'>"+
+	"<iframe src='/certs/dotnetcsharp_certificate.pdf' frameborder='0'></iframe>"+
+	"<iframe src='/certs/dotnetcsharp_oklevel.pdf' frameborder='0'></iframe>"+
 	"<iframe src='/certs/webdev_certificate.pdf' frameborder='0'></iframe>"+
 	"<iframe src='/certs/webdev_oklevel.pdf' frameborder='0'></iframe>"+
 	"<iframe src='/certs/pythoncloud_certificate.pdf' frameborder='0'></iframe>"+
